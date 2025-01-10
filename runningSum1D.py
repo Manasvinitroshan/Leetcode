@@ -5,5 +5,5 @@ class Solution:
         for i in range(1,len(nums)):
             prefix.append(nums[i] + prefix[-1])
 
-        
+        1
         return prefix
