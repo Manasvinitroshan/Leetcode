@@ -35,7 +35,7 @@ class Solution:
         while second:
             tmp1,tmp2 = first.next,second.next
             first.next = second 
-            second = tmp1
+            second.next = tmp1
             first,second = tmp1,tmp2
 
 
